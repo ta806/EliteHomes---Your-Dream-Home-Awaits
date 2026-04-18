@@ -1,0 +1,686 @@
+@media screen and (max-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+
+  header .content {
+    width: 70%;
+  }
+
+  header .content h1 {
+    font-size: 52px;
+    line-height: 65px;
+  }
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!DESKTOP */
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+  header .content {
+    width: 80%;
+  }
+
+  header .content h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  header .content > p {
+    font-size: 18px;
+    margin: 0 40px 40px;
+  }
+
+  .featured-properties .cent h2,
+  .our-services .cent h2,
+  .contact-us .cent h2,
+  .help-center .cent h2,
+  .what-our .cent h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .what-our .carousel-inner {
+    width: 90%;
+    height: auto;
+    min-height: 320px;
+  }
+
+  .title::after,
+  .title::before {
+    width: 60px !important;
+  }
+
+  .title::before {
+    left: -50% !important;
+  }
+
+  .title::after {
+    left: 105% !important;
+  }
+
+  .help-center .container {
+    width: 80%;
+  }
+}
+
+/* *************************************LAB */
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+
+  /* Navbar Responsive */
+  .navbar-nav {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-item {
+    margin: 5px 0 !important;
+  }
+
+  .line::before {
+    display: none;
+  }
+
+  header .content {
+    width: 95%;
+    padding-top: 100px;
+  }
+
+  header .content h1 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  header .content > p {
+    font-size: 16px;
+    margin: 0 20px 30px;
+  }
+
+  header .bg-center-white .row > div {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  header .bg-center-white .col-6,
+  header .bg-center-white .col-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  header .content-between {
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
+  /* Featured Properties */
+  .featured-properties .row .col-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 25px;
+  }
+
+  /* Our Services Tabs */
+  .nav-pills .nav-link {
+    padding: 10px 8px !important;
+    margin-inline: 8px;
+    font-size: 14px;
+  }
+
+  .tab-1 .row {
+    flex-direction: column;
+  }
+
+  .tab-1 .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .tab-1 .tap-image {
+    margin-top: 40px;
+    height: auto;
+  }
+
+  .tab-1 .tap-image .mov-1 {
+    left: 20px;
+    bottom: -20px;
+  }
+
+  .tab-1 .tap-image-22 .mov-1 {
+    left: auto;
+    right: 20px;
+  }
+
+  /* What Our Clients Say */
+  .what-our .carousel-inner {
+    width: 95%;
+    height: auto;
+  }
+
+  .what-our .carousel-inner .carousel-item .p-middel {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Help Center */
+  .help-center .container {
+    width: 90%;
+  }
+
+  .accordion button {
+    font-size: 16px;
+  }
+
+  /* Contact Us */
+  .contact-us .row > .col-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .contact-us .row > .col-4,
+  .contact-us .row > .col-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .form-card {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .top-right,
+  .bottom-left {
+    width: 200px;
+    height: 200px;
+  }
+
+  .circle-1,
+  .circle-2 {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* Footer */
+  .footer .d-flex {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+  .footer .d-flex.res {
+    flex-direction: row;
+    text-align: center;
+    gap: 15px;
+  }
+}
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&TABLET */
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+
+  /* Header */
+  header .content h1 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  header .content > p {
+    font-size: 14px;
+    margin: 0 10px 25px;
+    line-height: 24px;
+  }
+
+  header .bg-center-white .row > .small-h {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  header .bg-center-white .col-6,
+  header .bg-center-white .col-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  header .bg-center-white {
+    padding: 20px !important;
+  }
+
+  header .content-between {
+    width: 60%;
+    margin: 0 auto;
+
+    padding-bottom: 48px;
+  }
+  header .content-between p {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+
+  header .content-between span {
+    font-size: 14px;
+  }
+
+  /* Titles */
+  .featured-properties .cent h2,
+  .our-services .cent h2,
+  .contact-us .cent h2,
+  .help-center .cent h2,
+  .what-our .cent h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .featured-properties > p,
+  .our-services > p,
+  .help-center > p,
+  .contact-us > p,
+  .what-our .what-p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 15px;
+  }
+
+  .collection {
+    width: 160px !important;
+    font-size: 10px !important;
+  }
+
+  /* Featured Properties */
+  .featured-properties .row .col-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .card-top h5 {
+    font-size: 24px;
+  }
+
+  /* Our Services Tabs */
+  .nav-pills {
+    flex-wrap: wrap !important;
+    gap: 10px;
+    border-bottom: none !important;
+  }
+
+  .nav-pills .nav-link {
+    padding: 8px 16px !important;
+    margin-inline: 0 !important;
+    border-radius: 30px !important;
+    background: #f0f0f0 !important;
+    border-bottom: none !important;
+  }
+
+  .nav-pills .nav-link.active {
+    background: var(--main-color) !important;
+    color: white !important;
+    border-bottom: none !important;
+  }
+
+  .nav-pills .nav-link:hover {
+    border-bottom: none !important;
+  }
+
+  .flex-tap {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .tab-1 .left {
+    margin-bottom: 15px;
+  }
+
+  /* What Our Clients Say */
+  .what-our .carousel-inner {
+    width: 100%;
+  }
+
+  .what-our .carousel-inner .carousel-item {
+    padding: 20px !important;
+  }
+
+  .test-top {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+
+  .test-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    display: none;
+  }
+
+  .carousel-indicators {
+    position: relative;
+    top: 0;
+    margin-top: 20px;
+  }
+
+  /* Help Center */
+  .help-center .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .accordion-item {
+    margin-bottom: 15px;
+  }
+
+  .accordion button {
+    font-size: 14px;
+    padding: 15px !important;
+  }
+
+  /* Contact Us */
+  .contact-us .row > .col-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .contact-us .call-us,
+  .contact-us .email-us,
+  .contact-us .visit-usage,
+  .contact-us .live-chat {
+    text-align: start;
+  }
+
+  .contact-us .call-out,
+  .contact-us .email-out,
+  .contact-us .visit-out,
+  .contact-us .live-out {
+    margin: 0 0 10px !important;
+  }
+
+  .form-card {
+    padding: 20px !important;
+  }
+
+  .form-card .row {
+    flex-direction: column;
+  }
+
+  .form-card .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .custom-check {
+    flex-direction: row;
+
+    gap: 10px !important;
+  }
+
+  .top-right,
+  .bottom-left,
+  .circle-1,
+  .circle-2 {
+    display: none;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 30px 0 !important;
+  }
+}
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ PHONE  */
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+ .ay-haga {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+
+  /* Header */
+  header .content h1 {
+    padding-top: 40px;
+    font-size: 47px;
+    line-height: 60px;
+  }
+
+  header .content > p {
+    font-size: 20px;
+    margin: 0 0 40px;
+  }
+  header .content-between {
+    /* flex-wrap: wrap; */
+    width: 60%;
+    margin: 0 auto;
+
+    padding-bottom: 48px;
+  }
+  header .content-between p {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+
+  header .content-between span {
+    font-size: 14px;
+  }
+
+  .search-btn {
+    height: 45px;
+    font-size: 12px;
+  }
+
+  header .bg-center-white label {
+    font-size: 12px;
+  }
+
+  /* Titles */
+  .featured-properties .cent h2,
+  .our-services .cent h2,
+  .contact-us .cent h2,
+  .help-center .cent h2,
+  .what-our .cent h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .cent {
+    width: 90% !important;
+  }
+
+  .featured-properties > p,
+  .our-services > p,
+  .help-center > p,
+  .contact-us > p,
+  .what-our .what-p {
+    font-size: 18px;
+  }
+
+  .collection {
+    width: 160px !important;
+    font-size: 12px !important;
+    padding: 6px !important;
+  }
+
+  /* Cards */
+  .card-body {
+    padding: 15px !important;
+  }
+
+  .card-top h5 {
+    font-size: 30px;
+  }
+
+  .card-middel span {
+    font-size: 12px;
+  }
+
+  .card-bottom {
+    flex-direction: row !important;
+
+    align-items: flex-start !important;
+  }
+
+  .card-bottom .left {
+    width: 50%;
+  }
+  .card-bottom .left span {
+    margin-left: 10px;
+  }
+
+  .button-bottom button {
+    padding: 18px 25px !important;
+    font-size: 18px;
+  }
+  /* nav and tab */
+
+  .nav-pills {
+    flex-wrap: wrap !important;
+    gap: 10px;
+    border-bottom: none !important;
+    margin-inline: 2.5rem;
+  }
+
+  .our-services .nav button {
+    color: #4a5565;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .our-services .nav-pills {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.355) !important;
+  }
+
+  .nav-pills .nav-link {
+    background: transparent !important;
+    border: 0 !important ;
+    border-bottom: 3px solid transparent !important;
+    color: #666 !important;
+    border-radius: 0 !important;
+    padding: 15px 10px !important;
+    margin-inline: 20px;
+  }
+
+  .nav-pills .nav-link.active {
+    background-color: #f5f3ff !important;
+    color: var(--main-color) !important;
+    border-bottom: 3px solid var(--main-color) !important;
+  }
+  .nav-pills .nav-link:hover {
+    border-bottom: 3px solid rgba(128, 128, 128, 0.529) !important;
+    color: var(--main-color) !important;
+  }
+
+  .flex-tap {
+    flex-direction: row;
+    text-align: start;
+    margin-bottom: 40px !important;
+    gap: 14px !important;
+  }
+
+  .tab-1 .left {
+    margin-bottom: 15px;
+    width: 100px !important;
+  }
+
+  /* What Our Clients Say */
+  .what-our .carousel-inner .carousel-item .p-middel {
+    font-size: 18px;
+    line-height: 35px;
+  }
+
+  .test-bottom .right h4 {
+    font-size: 16px;
+  }
+
+  .test-bottom .right p,
+  .test-bottom .right span {
+    font-size: 12px;
+  }
+  .carousel-indicators {
+    position: absolute;
+    top: 102%;
+  }
+
+  /* Help Center */
+  .accordion button {
+    font-size: 20px;
+    padding: 25px 15px !important;
+  }
+
+  .accordion-body p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  /* Contact Us */
+
+  .contact-us .call-us,
+  .contact-us .email-us,
+  .contact-us .visit-usage,
+  .contact-us .live-chat {
+    text-align: start;
+  }
+
+  .contact-us .call-out,
+  .contact-us .email-out,
+  .contact-us .visit-out,
+  .contact-us .live-out {
+    margin: 0 0 10px !important;
+  }
+
+  .contact-card {
+    padding: 20px !important;
+  }
+
+  .contact-card h5 {
+    font-size: 20px;
+  }
+
+  .social-box {
+    padding: 20px !important;
+  }
+
+  .social-icon-1 {
+    width: 40px;
+    height: 40px;
+  }
+
+  .form-card h4 {
+    font-size: 20px;
+  }
+
+  .send-btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  /* Footer */
+  footer h5 {
+    font-size: 20px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+
+  .social-icon-2 {
+    width: 35px;
+    height: 35px;
+  }
+}
