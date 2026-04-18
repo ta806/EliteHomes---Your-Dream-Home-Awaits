@@ -454,13 +454,22 @@
   .modern,
   .luxury {
     margin: 0 !important;
-    width: 50% !important;
+    width: 49% !important;
     background-color: white !important;
     cursor: pointer;
   }
   .modern .content-right,
   .luxury .content-right {
     width: 100%;
+  }
+  .modern .content-right h4,
+  .luxury .content-right h4 {
+    font-size: 14px !important;
+    margin-bottom: 0 !important;
+  }
+  .modern .content-right span,
+  .luxury .content-right span {
+    font-size: 10px !important;
   }
   .modern:hover,
   .luxury:hover {
